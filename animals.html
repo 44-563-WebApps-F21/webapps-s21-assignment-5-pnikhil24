@@ -44,14 +44,92 @@
             browser rows are adjustung their
             size</p>
         <div class="container">
-            <img src="Alligator1.jpg" class="img-fluid" alt="Alligator" width="340" height="450">
-            <img src="Kangaroo.png" class="img-fluid" alt="Kangaroo" width="340" height="450">
-            <img src="Indian-Elephant.png" class="img-fluid" alt="Indian-Elephant" width="340" height="450">
+            <img src="Alligator1.jpg" class="img-fluid" alt="Alligator" width="420" height="450">
+            <img src="Kangaroo.png" class="img-fluid" alt="Kangaroo" width="420" height="450">
+            <img src="Indian-Elephant.png" class="img-fluid" alt="Indian-Elephant" width="420" height="450">
         </div>
         <div class="container">
-            <img src="Alligator1.jpg" class="img-thumbnail" alt="Alligator" width="340" height="450">
-            <img src="Kangaroo.png" class="img-thumbnail" alt="Kangaroo" width="340" height="450">
-            <img src="Indian-Elephant.png" class="img-thumbnail" alt="Indian-Elephant" width="340" height="450">
+            <img src="Alligator1.jpg" class="img-thumbnail" alt="Alligator" width="420" height="450">
+            <img src="Kangaroo.png" class="img-thumbnail" alt="Kangaroo" width="420" height="450">
+            <img src="Indian-Elephant.png" class="img-thumbnail" alt="Indian-Elephant" width="420" height="450">
+        </div>
+        <br>
+        <caption><b style="font-size: 30px; background-color:tomato; color: white;">Bootstrap Table</b></caption>
+        <table class="table table-borderless table-hover table-striped table-dark" style="border: 2px;">
+
+            <thead style="color: red;">
+                <tr>
+                    <th scope="col">S.No</th>
+                    <th scope="col">Letter</th>
+                    <th scope="col">Animal</th>
+                    <th scope="col">City</th>
+                    <th scope="col">Car</th>
+                </tr>
+            </thead>
+            <tbody style="color:yellow;">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>P</td>
+                    <td>Panther</td>
+                    <td>Panaji</td>
+                    <td>Pars Khodro</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>O</td>
+                    <td>Ostrich</td>
+                    <td>Oakland</td>
+                    <td>Oldsmobile</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>R</td>
+                    <td>Raccoon</td>
+                    <td>Riyadh</td>
+                    <td>ROLLS-ROYCE</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>I</td>
+                    <td>Indian-Elephant</td>
+                    <td>Irkutsk</td>
+                    <td>i20 - Hyundai</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>K</td>
+                    <td>Kangaroo</td>
+                    <td>Kanpur</td>
+                    <td>KIA Motors</td>
+                </tr>
+            </tbody>
+        </table>
+        <caption><b>Buttons & Button-Groups</b></caption>
+        <br>
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+                <button type="button" class="btn btn-success">P</button>
+                <button type="button" class="btn btn-success">O</button>
+                <button type="button" class="btn btn-success">R</button>
+            </div>
+            <div class="btn-group me-2" role="group" aria-label="Second group">
+                <button class="btn btn-warning">I</button>
+                <button class="btn btn-warning">K</button>
+            </div>
+            <div class="btn-group me-2" role="group" aria-label="Third group">
+                <button class="btn btn-danger">A</button>
+            </div>
+        </div>
+        <br>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="plane.html" style="color: yellow;">Plane</a></li>
+                <li><a class="dropdown-item" href="train.html" style="color: yellow;">Train</a></li>
+            </ul>
         </div>
     </div>
 </body>
