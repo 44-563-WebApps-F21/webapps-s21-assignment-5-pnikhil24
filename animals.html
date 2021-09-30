@@ -20,7 +20,28 @@
 <body>
 
     <h1>Animals by Nikhil Porika </h1>
-    <!-- <button class="btn btn-sm btn-success" onclick="console.log(Date())">Click Me</button> -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <!-- <button class="btn btn-sm btn-success" onclick="console.log(Date())">Click Me</button> -->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="animals.html" style="font-size: 40px;">Interesting Animals</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 40px;">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="plane.html">Plane</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="train.html">Train</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
     <div class="container">
         <div class="row">
             <div class="col-sm-2">P</div>
@@ -131,6 +152,24 @@
                 <li><a class="dropdown-item" href="train.html" style="color: yellow;">Train</a></li>
             </ul>
         </div>
+        <br>
+        <form>
+            <div class="mb-3">
+                <label for="inputemail" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="inputemail" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email.</div>
+            </div>
+            <div class="mb-3">
+                <label for="animal" class="form-label">Enter your animal</label>
+                <input type="text" class="form-control" id="animal">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="Check">
+                <label class="form-check-label" for="Check">Sign up for newsletter? </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <br>
     </div>
 </body>
 
